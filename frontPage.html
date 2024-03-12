@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Front Page</title>
+    <style>
+      
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* nav{
+           
+            color:white;
+            display: flex;
+            display: flex;
+            justify-content: center;
+            align-content: space-between;
+            
+        } */
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .nav-outer
+        {
+            display: flex;
+            justify-content: space-around;
+            background-color:rgb(10,10,75) ;
+            /* height: 30px; */
+            padding: 18px;
+            
+        }
+        .nav-outer > div{
+            justify-content: center;
+            align-content: space-between;
+        
+        }
+        .nav-outer > div a{
+           color: white;
+           text-decoration: none;
+           font-weight: bolder;
+           font-size: 1.5em;
+        }
+        section{
+            display: flex;
+        justify-content: baseline;
+        }
+        .left-section
+        {
+            height:520px;
+            /* background-color: green; */
+          width: 60%;
+          float: left;
+          
+        }
+
+        .right-section
+        {
+             height:300px;
+            /* background-color: red; */
+             width: 40%;
+        
+      
+        }
+        .content1{
+            /* background-color: blue; */
+            width: 50%;
+            margin-left: 15%;
+            margin-top: 10%;
+        }
+        .form-section{
+            width: 370px;
+            margin-top: 10px;
+            /* background-color: yellow; */
+        }
+        .form-section input{
+            width: 170px;
+            padding: 9px;
+            margin: 5px;
+            border-radius: 3px;
+            border: none;
+            outline: none;
+            background-color: rgb(70,70,145);
+            color: white;
+            
+            
+        }
+        .submit-btn{
+            text-align: center;
+            padding: 9px 15px;
+            background-color: rgb(196,89,200);
+            margin: 10px;
+            border: none;
+            outline: none;
+            color: white;
+           
+        }
+        textarea{
+            margin: 5px;
+            background-color: rgb(70,70,145);
+        }
+        .content2{
+            margin-top: 15%;
+            margin-left: 35%;
+        }
+        .icons > img{
+            height: 30px;
+            width: 30px;
+            margin: 10px;
+        }
+        ::placeholder {
+      color: white; 
+    }
+    .background-content
+    {
+        background: url(images/bg2.avif);
+        background-size: cover;
+        padding: 3%;
+        height: 100vh;
+      
+       
+    }
+    .content{
+        width: 80%;;
+        margin: auto;
+        background-color:rgb(10,10,75) ;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    </style>
+</head>
+<body>
+    <!-- nav bar -->
+    <div class="background-content">
+        <div class="content">
+        <nav>
+            <div class="nav-outer">
+              <div>  <a href="">HOME</a></div>
+               <div> <a href="">BLOG</a></div>
+              <div>  <a href="">ABOUT</a></div>
+               <div> <a style="color: rgb(198,90,200); font-size: 1.5em;" href="">CONTACT</a></div>
+            </div>
+        </nav>
+        <!-- content part -->
+        <section>
+            <div class="left-section">
+                <div class="content1">
+                    <h1 style="color: rgb(198,90,200); font-size: 2.2em;">JUST SAY HELLO!</h1>
+                    <p  style="color: rgb(254, 251, 254); font-size: 1em;">Just Let Us Know More About You</p>
+                    <div class="form-section">
+                        <input type="text" placeholder="FIRST NAME">
+                        <input type="text" placeholder="LAST NAME">
+                        <input type="text" placeholder="MAIL">
+                        <input type="text" placeholder="CONTACT">
+                        <textarea name="" id="" cols="46" rows="10"></textarea>
+                        <button class="submit-btn" type="submit" >SUBMIT</button>
+                    </div>
+    
+                </div>
+               
+    
+            </div>
+            <div class="right-section">
+                <div class="content2">
+                    <h1 style="color: rgb(198,90,200); font-size: 2em;">CONTACT </h1>
+                    <h1  style="color: rgb(198,90,200); font-size: 2em;">INFORMATION</h1>
+                    <p  style="color: white; font-size: 1em;">CSED , MNNIT ALLAHABAD</p>
+                    <p style="color: white; font-size: 1em;">PRAYAGRAJ - 211004</p>
+                    <br>
+                    <p style="color: white; font-size: 1em;">CALL us: +91-4794685713</p>
+                    <br>
+                    <br>
+                    <h1  style="color: rgb(198,90,200); font-size: 2em;">FOLLOW US</h1>
+                    <div class="icons">
+                        <img src="images/facebook.png" alt=""><img src="images/instagram.png" alt=""><img src="images/linkedin.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</div>
+   
+
+
+
+
+</body>
+</html>
